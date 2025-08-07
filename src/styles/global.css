@@ -1,17 +1,7 @@
 @import "tailwindcss";
 
-/*
-primary:   #212FF6 / oklch(0.48 0.28 267) / rgb(33 47 246)
-secondary: #F6E821 / oklch(0.91 0.19 105) / rgb(246 232 33)
-*/
-
-@theme {
-  --color-neon-blue: #212FF6;
-  --color-neon-yellow: #F6E821;
-}
-
 @layer utilities {
-
+  /* Fondo de cuadros */
   .bg-checkered-pattern {
     background-color: #0f0f0f;
     background-image:
@@ -19,13 +9,9 @@ secondary: #F6E821 / oklch(0.91 0.19 105) / rgb(246 232 33)
       linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
   }
-
-  @keyframes blink {
-    0%, 100% { opacity: 0.5; }
-    50% { opacity: 0.8; }
-  }
-
-  .animate-blink {
-    animation: blink 3s ease-in-out infinite;
-  }
 }
+
+html {
+  font-family: 'Onest Variable', system-ui, sans-serif;
+}
+body

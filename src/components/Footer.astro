@@ -1,13 +1,28 @@
+---
+import IconLinkedin from './Icons/IconLinkedin.astro';
+import IconGithub from './Icons/IconGithub.astro';
+import IconMail from './Icons/IconMail.astro';
+
+---
+
 <footer class="w-full mt-32 bg-neutral-800 border-t border-neutral-700 rounded-t-3xl px-6 py-10 text-zinc-400">
-  <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+  <div class="w-full lg:max-w-4xl md:max-w-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
     <div class="text-center md:text-left">
       <h4 class="text-lg font-semibold text-zinc-100">Miguel González García</h4>
       <p class="text-sm">Full Stack Developer</p>
     </div>
-    <div class="flex gap-4">
-      <a href="/" class="hover:text-white transition-colors duration-300">LinkedIn</a>
-      <a href="/" class="hover:text-white transition-colors duration-300">GitHub</a>
-      <a href="mailto:tu@email.com" class="hover:text-white transition-colors duration-300">Contacto</a>
+    <div class="flex gap-6">
+      <a href="https://www.linkedin.com/in/miguelgonzalezgarciadev/" target="_blank" class="hover:text-zinc-100 transition-colors duration-300 p-2">
+        <IconLinkedin className="size-8"></IconLinkedin>
+      </a>
+      <a href="https://github.com/miguelgonzalezzdev" target="_blank" class="hover:text-zinc-100 transition-colors duration-300 p-2">
+        <IconGithub className="size-8"></IconGithub>
+      </a>
+       <a href="mailto:miguelgonzalezdev@gmail.com" target="_blank" class="hover:text-zinc-100 transition-colors duration-300 p-2">
+        <IconMail className="size-8"></IconMail>
+      </a>
     </div>
   </div>
+  <div class="text-center mt-6 text-sm">
+    <p>Diseñado con <span class="text-cyan-300">&hearts;</span> usando <a href="https://astro.build/" target="_blank" class="underline">Astro</a> y <a href="https://tailwindcss.com/" target="_blank" class="underline">Tailwind CSS</a>.</p>
 </footer>

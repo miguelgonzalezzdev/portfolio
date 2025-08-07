@@ -2,6 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import IconLinkedin from '../components/Icons/IconLinkedin.astro';
+import IconGithub from '../components/Icons/IconGithub.astro';
+import IconMail from '../components/Icons/IconMail.astro';
+import IconLink from '../components/Icons/IconLink.astro';
+import IconReact from '../components/Icons/IconReact.astro';
+import IconTypescript from '../components/Icons/IconTypescript.astro';
+import IconSupabase from '../components/Icons/IconSupabase.astro';
+import IconTailwind from '../components/Icons/IconTailwind.astro';
 ---
 
 <Layout>
@@ -12,47 +20,49 @@ import Footer from '../components/Footer.astro';
 				<h1 class="text-5xl font-bold">
 					Miguel González García
 				</h1>
-				<h2 class="text-3xl font-semibold italic mt-4 bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent">
+				<h2 class="text-3xl font-semibold italic mt-4 bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent">
 					Full Stack Developer
 				</h2>
 				<p class="text-xl max-w-xl py-8">
-					+2 años de experiencia. <span class="bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">Desarrollador de software</span> en Jaén, España. Especializado en transformar ideas en <span class="bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">soluciones web</span> únicas e innovadoras.
+					+2 años de experiencia. <span class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent">Desarrollador de software</span> en Jaén, España. Especializado en transformar ideas en <span class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent">soluciones web</span> únicas e innovadoras.
 				</p>
 				<nav class="flex flex-wrap gap-4 text-sm md:text-md">
-					<a href="/" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-1 bg-white/10 border border-white/20 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
-						<svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>
+					<a href="https://www.linkedin.com/in/miguelgonzalezgarciadev/" target="_blank" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
+						<IconLinkedin className="size-4"></IconLinkedin>
 						LinkedIn
 					</a>
-					<a href="/" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-1 bg-white/10 border border-white/20 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
-						<svg class="size-4" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+					<a href="https://github.com/miguelgonzalezzdev" target="_blank" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
+						<IconGithub className="size-4"></IconGithub>
 						Github
 					</a>
-					<a href="/" class="rounded-full  backdrop-blur-sm shadow-lg px-3 md:px-4 py-1 bg-white/10 border border-white/20 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
-						<svg class="size-4" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+					<a href="mailto:miguelgonzalezdev@gmail.com" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
+						<IconMail className="size-4"></IconMail>
 						Contáctame
 					</a>
 				</nav>
 			</div>
-			<div class="relative w-40 h-40 lg:w-56 lg:h-56 rounded-full transition-transform duration-500 hover:scale-105">
-				<div class="absolute -inset-1 rounded-full bg-gradient-to-tr from-cyan-300 via-blue-500 to-indigo-600 blur-3xl opacity-50 animate-blink"></div>
+			<div class="relative w-40 h-40 lg:w-52 lg:h-52 rounded-full transition-transform duration-500 hover:scale-105">
+				<div class="absolute -inset-1 rounded-full bg-gradient-to-tr from-cyan-300 via-blue-500 to-indigo-600 blur-3xl opacity-50"></div>
 				<div class="relative w-full h-full rounded-full overflow-hidden shadow-xl border-4 border-transparent">
-					<img src="/perfil.jpg" alt="Miguel González García" class="w-full h-full object-cover rounded-full" />
+					<img src="/perfil.webp" alt="Miguel González García" class="w-full h-full object-cover rounded-full" />
 				</div>
 			</div>
 		</section>
 		<section id="experiencia" class="w-full lg:max-w-4xl md:max-w-2xl mt-20 lg:mt-60">
-			<h3 class="text-3xl font-bold mb-6 pb-2 flex items-center gap-3">
+			<h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
 				<svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path><path d="M12 12l0 .01"></path><path d="M3 13a20 20 0 0 0 18 0"></path></svg>
 				Experiencia laboral
 			</h3>
-			<div class="space-y-8">
-				<div class="bg-neutral-800 border border-neutral-700 backdrop-blur-md rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
-					<div class="flex justify-between items-center">
-						<h4 class="text-xl font-semibold bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">Desarrollador Full Stack</h4>
+			<article class="space-y-8">
+				<div class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
+					<div class="flex justify-between flex-wrap gap-1">
+						<div class="flex flex-col gap-1">
+							<h4 class="text-xl font-semibold bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">Desarrollador Full Stack</h4>
+							<h4 class="text-lg font-semibold">Cinde</h4>
+						</div>
 						<span class="text-sm text-zinc-300 italic">Marzo 2023 - Actualidad</span>
 					</div>
-					<h4 class="text-lg font-semibold my-1">Cinde</h4>
-					<ul class="p-4 text-zinc-300 list-disc text-md">
+					<ul class="p-4 text-zinc-300 list-disc text-md leading-relaxed">
 						<li>
 							Diseño y desarollo de aplicaciones web adaptadas a las necesidades del cliente.
 						</li>
@@ -67,7 +77,50 @@ import Footer from '../components/Footer.astro';
 						</li>
 					</ul>
 				</div>
-			</div>
+			</article>
+		</section>
+		<section id="proyectos" class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30">
+			<h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
+				<svg class="size-8" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-code"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" /></svg>
+				Proyectos
+			</h3>
+			<article class="space-y-8">
+				<div class="grid grid-cols-1 md:grid-cols-2 bg-neutral-800 border border-neutral-700 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
+					<div class="relative w-full h-full min-h-[200px] md:min-h-[300px]">
+						<img src="/biblioclase_2.JPG" alt="Imagen proyecto Biblioclase" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-103" />
+					</div>
+					<div class="p-6 md:p-8 flex flex-col gap-4 text-zinc-100">
+						<h4 class="text-2xl font-bold bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300  bg-clip-text text-transparent">
+						Biblioclase
+						</h4>
+						<div class="flex flex-wrap gap-4">
+							<IconReact width="24" height="24"></IconReact>
+							<IconTypescript width="24" height="24"></IconTypescript>
+							<IconSupabase width="24" height="24"></IconSupabase>
+							<IconTailwind width="24" height="24"></IconTailwind>
+						</div>
+						<p class="text-zinc-300 text-md leading-relaxed">
+							Biblioclase es una aplicación diseñada para fomentar el hábito de la lectura en los niños. Les permite descubrir libros según sus géneros literarios favoritos, publicar reseñas, interactuar con sus amigos y mucho más, en un entorno seguro y amigable.
+						</p>
+						<div class="flex gap-4 mt-auto text-sm">
+							<a href="https://github.com/miguelgonzalezzdev/book-rating-app" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full transition inline-flex items-center justify-center gap-2">
+								<IconLink className="size-4"></IconLink>
+								Ver proyecto
+							</a>
+							<a href="https://github.com/miguelgonzalezzdev/book-rating-app" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full transition inline-flex items-center justify-center gap-2">
+								<IconGithub className="size-4"></IconGithub>
+								Código
+							</a>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section id="sobremi" class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30">
+			<h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
+				<svg class="size-8" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+				Sobre mí
+			</h3>
 		</section>
 	</main>
 	<Footer></Footer>
