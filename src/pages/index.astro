@@ -2,14 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import IconLinkedin from '../components/Icons/IconLinkedin.astro';
-import IconGithub from '../components/Icons/IconGithub.astro';
-import IconMail from '../components/Icons/IconMail.astro';
-import IconLink from '../components/Icons/IconLink.astro';
-import IconReact from '../components/Icons/IconReact.astro';
-import IconTypescript from '../components/Icons/IconTypescript.astro';
-import IconSupabase from '../components/Icons/IconSupabase.astro';
-import IconTailwind from '../components/Icons/IconTailwind.astro';
+import IconLinkedin from '../components/icons/IconLinkedin.astro';
+import IconGithub from '../components/icons/IconGithub.astro';
+import IconMail from '../components/icons/IconMail.astro';
+import IconLink from '../components/icons/IconLink.astro';
+import IconReact from '../components/icons/IconReact.astro';
+import IconTypescript from '../components/icons/IconTypescript.astro';
+import IconSupabase from '../components/icons/IconSupabase.astro';
+import IconTailwind from '../components/icons/IconTailwind.astro';
 ---
 
 <Layout>
@@ -54,7 +54,7 @@ import IconTailwind from '../components/Icons/IconTailwind.astro';
 				Experiencia laboral
 			</h3>
 			<article class="space-y-8">
-				<div class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
+				<div class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-lg">
 					<div class="flex justify-between flex-wrap gap-1">
 						<div class="flex flex-col gap-1">
 							<h4 class="text-xl font-semibold bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">Desarrollador Full Stack</h4>
@@ -62,7 +62,7 @@ import IconTailwind from '../components/Icons/IconTailwind.astro';
 						</div>
 						<span class="text-sm text-zinc-300 italic">Marzo 2023 - Actualidad</span>
 					</div>
-					<ul class="p-4 text-zinc-300 list-disc text-md leading-relaxed">
+					<ul class="p-4 text-zinc-200 list-disc text-md leading-relaxed">
 						<li>
 							Diseño y desarollo de aplicaciones web adaptadas a las necesidades del cliente.
 						</li>
@@ -85,12 +85,12 @@ import IconTailwind from '../components/Icons/IconTailwind.astro';
 				Proyectos
 			</h3>
 			<article class="space-y-8">
-				<div class="grid grid-cols-1 md:grid-cols-2 bg-neutral-800 border border-neutral-700 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
+				<div class="grid grid-cols-1 md:grid-cols-2 bg-neutral-800 border border-neutral-700 rounded-2xl shadow-lg overflow-hidden group">
 					<div class="relative w-full h-full min-h-[200px] md:min-h-[300px]">
-						<img src="/biblioclase_2.JPG" alt="Imagen proyecto Biblioclase" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-103" />
+						<img src="/biblioclase.webp" alt="Imagen proyecto Biblioclase" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-103" />
 					</div>
 					<div class="p-6 md:p-8 flex flex-col gap-4 text-zinc-100">
-						<h4 class="text-2xl font-bold bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300  bg-clip-text text-transparent">
+						<h4 class="text-2xl font-bold bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent">
 						Biblioclase
 						</h4>
 						<div class="flex flex-wrap gap-4">
@@ -99,15 +99,15 @@ import IconTailwind from '../components/Icons/IconTailwind.astro';
 							<IconSupabase width="24" height="24"></IconSupabase>
 							<IconTailwind width="24" height="24"></IconTailwind>
 						</div>
-						<p class="text-zinc-300 text-md leading-relaxed">
+						<p class="text-zinc-200 text-md leading-relaxed">
 							Biblioclase es una aplicación diseñada para fomentar el hábito de la lectura en los niños. Les permite descubrir libros según sus géneros literarios favoritos, publicar reseñas, interactuar con sus amigos y mucho más, en un entorno seguro y amigable.
 						</p>
 						<div class="flex gap-4 mt-auto text-sm">
-							<a href="https://github.com/miguelgonzalezzdev/book-rating-app" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full transition inline-flex items-center justify-center gap-2">
-								<IconLink className="size-4"></IconLink>
-								Ver proyecto
+							<a href="https://github.com/miguelgonzalezzdev/book-rating-app" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30">
+									<IconLink className="size-4"></IconLink>
+									Ver proyecto
 							</a>
-							<a href="https://github.com/miguelgonzalezzdev/book-rating-app" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full transition inline-flex items-center justify-center gap-2">
+							<a href="https://github.com/miguelgonzalezzdev/book-rating-app" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30">
 								<IconGithub className="size-4"></IconGithub>
 								Código
 							</a>
@@ -121,6 +121,13 @@ import IconTailwind from '../components/Icons/IconTailwind.astro';
 				<svg class="size-8" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
 				Sobre mí
 			</h3>
+			<article class="space-y-8">
+				<div class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-lg text-md text-zinc-200 space-y-4">
+					<p>Soy Miguel González García, desarrollador web apasionado por la tecnología. Desde pequeño he sido un enamorado los ordenadores, recuerdo sentarme junto a mi padre y verlo usar el PC durante horas. Con el tiempo, finalmente he conseguido dedicarme profesionalmente a lo que siempre ha sido mi hobby.</p>
+					<p>Como profesional, he asesorado a diversos clientes en la optimización de sus procesos de negocio mediante soluciones ERP y CRM personalizadas. También me encargo del mantenimiento y soporte técnico de aplicaciones existentes, garantizando su correcto funcionamiento y evolución. Junto con mi equipo, he desarrollado plataformas SaaS que aportan valor real.</p>
+					<p>Me considero una persona comprometida, resolutiva y proactiva. Disfruto trabajando en equipo y colaborando con mis compañeros para alcanzar los objetivos comunes. Mi meta es formar parte de un entorno profesional donde pueda aportar valor con mis conocimientos, afrontar nuevos desafíos y seguir desarrollándome tanto a nivel personal como profesionalmente.</p>
+				</div>
+			</article>
 		</section>
 	</main>
 	<Footer></Footer>
