@@ -1,46 +1,34 @@
-# Astro Starter Kit: Basics
+# 🌐 Portfolio Web – Miguel González García
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este es mi portfolio personal desarrollado con Astro, donde muestro mi experiencia, proyectos e información sobre mí.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📋 Descripción
 
-## 🚀 Project Structure
+El objetivo de este portfolio web es mostrar de forma atractiva:
 
-Inside of your Astro project, you'll see the following folders and files:
+- Mi perfil y habilidades como desarrollador.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+- Experiencia laboral.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- Proyectos personales con enlaces y código fuente.
 
-## 🧞 Commands
+- Información de contacto y enlaces a redes.
 
-All commands are run from the root of the project, from a terminal:
+## 🛠️ Tecnologías 
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- Astro 
+- Tailwind CSS
+- GitHub Pages + GitHub Actions
 
-## 👀 Want to learn more?
+## ✨ Características
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- 🎨 Diseño moderno y responsive
+- ⚡ Rendimiento optimizado y fluido
+- 💻 Diseño responsive para todos los dispositivos
+- 🚀 Despliegue automatizado con GitHub Pages + GitHub Actions
+
+## 🔗 Enlaces
+
+- Web: [miguelgonzalezzdev.github.io/portfolio](https://miguelgonzalezzdev.github.io/portfolio/)
+- LinkedIn: [Miguel González García](https://www.linkedin.com/in/miguelgonzalezgarciadev/)
+- GitHub: [@miguelgonzalezzdev](https://github.com/miguelgonzalezzdev
