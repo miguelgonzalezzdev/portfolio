@@ -31,4 +31,4 @@ El objetivo de este portfolio web es mostrar de forma atractiva:
 
 - Web: [miguelgonzalezzdev.github.io/portfolio](https://miguelgonzalezzdev.github.io/portfolio/)
 - LinkedIn: [Miguel González García](https://www.linkedin.com/in/miguelgonzalezgarciadev/)
-- GitHub: [@miguelgonzalezzdev](https://github.com/miguelgonzalezzdev
+- GitHub: [@miguelgonzalezzdev](https://github.com/miguelgonzalezzdev)

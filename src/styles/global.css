@@ -1,6 +1,28 @@
 @import "tailwindcss";
 
+html {
+  font-family: 'Onest Variable', system-ui, sans-serif;
+}
+
+@keyframes slideLeftBounce {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @layer utilities {
+
   /* Fondo de cuadros */
   .bg-checkered-pattern {
     background-color: #0f0f0f;
@@ -9,8 +31,8 @@
       linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
   }
-}
 
-html {
-  font-family: 'Onest Variable', system-ui, sans-serif;
+  .slide-left-bounce {
+    animation: slideLeftBounce 0.9s ease-out forwards;
+  }
 }
