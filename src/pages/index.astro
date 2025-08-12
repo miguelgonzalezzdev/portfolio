@@ -1,114 +1,222 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import IconLinkedin from '../components/icons/IconLinkedin.astro';
-import IconGithub from '../components/icons/IconGithub.astro';
-import IconMail from '../components/icons/IconMail.astro';
-import IconLink from '../components/icons/IconLink.astro';
-import IconReact from '../components/icons/IconReact.astro';
-import IconTypescript from '../components/icons/IconTypescript.astro';
-import IconSupabase from '../components/icons/IconSupabase.astro';
-import IconTailwind from '../components/icons/IconTailwind.astro';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import IconLinkedin from "../components/icons/IconLinkedin.astro";
+import IconGithub from "../components/icons/IconGithub.astro";
+import IconMail from "../components/icons/IconMail.astro";
+import IconLink from "../components/icons/IconLink.astro";
+import IconReact from "../components/icons/IconReact.astro";
+import IconTypescript from "../components/icons/IconTypescript.astro";
+import IconSupabase from "../components/icons/IconSupabase.astro";
+import IconTailwind from "../components/icons/IconTailwind.astro";
 ---
 
 <Layout>
-	<Header></Header>
+	<Header />
 	<main class="w-full flex flex-col items-center text-zinc-100 px-6">
-		<section class="w-full lg:max-w-4xl md:max-w-2xl flex flex-col md:flex-row items-center gap-18 mt-12 lg:mt-50">
+		<section
+			class="w-full lg:max-w-4xl md:max-w-2xl flex flex-col md:flex-row items-center gap-18 mt-12 lg:mt-50"
+		>
 			<div class="flex-1">
-				<h1 class="text-5xl font-bold">
-					Miguel González García
-				</h1>
-				<h2 class="text-3xl font-semibold italic mt-4 bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent">
+				<h1 class="text-5xl font-bold">Miguel González García</h1>
+				<h2
+					class="text-3xl font-semibold italic mt-4 bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent"
+				>
 					Full Stack Developer
 				</h2>
 				<p class="text-xl max-w-xl py-8">
-					+2 años de experiencia. <span class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent">Desarrollador de software</span> en Jaén, España. Especializado en transformar ideas en <span class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent">soluciones web</span> únicas e innovadoras.
+					+2 años de experiencia. <span
+						class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent"
+						>Desarrollador de software</span
+					> en Jaén, España. Especializado en transformar ideas en <span
+						class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent"
+						>soluciones web</span
+					> únicas e innovadoras.
 				</p>
 				<nav class="flex flex-wrap gap-4 text-sm md:text-md">
-					<a href="https://www.linkedin.com/in/miguelgonzalezgarciadev/" target="_blank" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
-						<IconLinkedin className="size-4"></IconLinkedin>
+					<a
+						href="https://www.linkedin.com/in/miguelgonzalezgarciadev/"
+						target="_blank"
+						class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1"
+					>
+						<IconLinkedin className="size-4" />
 						LinkedIn
 					</a>
-					<a href="https://github.com/miguelgonzalezzdev" target="_blank" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
-						<IconGithub className="size-4"></IconGithub>
+					<a
+						href="https://github.com/miguelgonzalezzdev"
+						target="_blank"
+						class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1"
+					>
+						<IconGithub className="size-4" />
 						Github
 					</a>
-					<a href="mailto:miguelgonzalezdev@gmail.com" class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
-						<IconMail className="size-4"></IconMail>
+					<a
+						href="mailto:miguelgonzalezdev@gmail.com"
+						class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1"
+					>
+						<IconMail className="size-4" />
 						Contáctame
 					</a>
 				</nav>
 			</div>
-			<div class="relative w-40 h-40 lg:w-52 lg:h-52 rounded-full transition-transform duration-500 hover:scale-105">
-				<div class="absolute -inset-1 rounded-full bg-gradient-to-tr from-cyan-300 via-blue-500 to-indigo-600 blur-3xl opacity-50"></div>
-				<div class="relative w-full h-full rounded-full overflow-hidden shadow-xl border-4 border-transparent">
-					<img src="perfil.webp" alt="Miguel González García" class="w-full h-full object-cover rounded-full" />
+			<div
+				class="relative w-40 h-40 lg:w-52 lg:h-52 rounded-full transition-transform duration-500 hover:scale-105"
+			>
+				<div
+					class="absolute -inset-1 rounded-full bg-gradient-to-tr from-cyan-300 via-blue-500 to-indigo-600 blur-3xl opacity-55"
+				>
+				</div>
+				<div
+					class="relative w-full h-full rounded-full overflow-hidden shadow-xl border-4 border-transparent"
+				>
+					<img
+						src="perfil.webp"
+						alt="Imagen de Miguel González García"
+						class="w-full h-full object-cover rounded-full"
+					/>
 				</div>
 			</div>
 		</section>
-		<section id="experiencia" class="w-full lg:max-w-4xl md:max-w-2xl mt-20 lg:mt-60">
+		<section
+			id="experiencia"
+			class="w-full lg:max-w-4xl md:max-w-2xl mt-20 lg:mt-60"
+		>
 			<h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
-				<svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path><path d="M12 12l0 .01"></path><path d="M3 13a20 20 0 0 0 18 0"></path></svg>
+				<svg
+					class="size-8"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					stroke-width="2"
+					stroke="currentColor"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					><path stroke="none" d="M0 0h24v24H0z" fill="none"
+					></path><path
+						d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"
+					></path><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"
+					></path><path d="M12 12l0 .01"></path><path
+						d="M3 13a20 20 0 0 0 18 0"></path></svg
+				>
 				Experiencia laboral
 			</h3>
 			<article class="space-y-8">
-				<div class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-lg">
+				<div
+					class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-lg"
+				>
 					<div class="flex justify-between flex-wrap gap-1">
 						<div class="flex flex-col gap-1">
-							<h4 class="text-xl font-semibold bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">Desarrollador Full Stack</h4>
+							<h4
+								class="text-xl font-semibold bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent"
+							>
+								Desarrollador Full Stack
+							</h4>
 							<h4 class="text-lg font-semibold">Cinde</h4>
 						</div>
-						<span class="text-sm text-zinc-300 italic">Marzo 2023 - Actualidad</span>
+						<span class="text-sm text-zinc-300 italic"
+							>Marzo 2023 - Actualidad</span
+						>
 					</div>
-					<ul class="p-4 text-zinc-200 list-disc text-md leading-relaxed">
+					<ul
+						class="p-4 text-zinc-200 list-disc text-md leading-relaxed"
+					>
 						<li>
-							Diseño y desarollo de aplicaciones web adaptadas a las necesidades del cliente.
+							Diseño y desarollo de aplicaciones web adaptadas a
+							las necesidades del cliente.
 						</li>
 						<li>
-							Mantenimiento y soporte técnico de sotfware ya existente.
+							Mantenimiento y soporte técnico de sotfware ya
+							existente.
 						</li>
 						<li>
-							Consultor TIC: asesoramiento continuo a clientes en la optimización de sus procesos de negocio mediante soluciones ERP y CRM personalizadas.
+							Consultor TIC: asesoramiento continuo a clientes en
+							la optimización de sus procesos de negocio mediante
+							soluciones ERP y CRM personalizadas.
 						</li>
 						<li>
-							He detectado y corregido diferentes vulnerabilidades en el código de los proyectos en los que participo, como por ejemplo: XSS, subida de ficheros maliciosos, cookies inseguras, ataques de fuerza bruta, etc.
+							He detectado y corregido diferentes vulnerabilidades
+							en el código de los proyectos en los que participo,
+							como por ejemplo: XSS, subida de ficheros
+							maliciosos, cookies inseguras, ataques de fuerza
+							bruta, etc.
 						</li>
 					</ul>
 				</div>
 			</article>
 		</section>
-		<section id="proyectos" class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30">
+		<section
+			id="proyectos"
+			class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30"
+		>
 			<h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
-				<svg class="size-8" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-code"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" /></svg>
+				<svg
+					class="size-8"
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="icon icon-tabler icons-tabler-outline icon-tabler-code"
+					><path stroke="none" d="M0 0h24v24H0z" fill="none"
+					></path><path d="M7 8l-4 4l4 4"></path><path
+						d="M17 8l4 4l-4 4"></path><path d="M14 4l-4 16"
+					></path></svg
+				>
 				Proyectos
 			</h3>
 			<article class="space-y-8">
-				<div class="grid grid-cols-1 md:grid-cols-2 bg-neutral-800 border border-neutral-700 rounded-2xl shadow-lg overflow-hidden group">
-					<div class="relative w-full h-full min-h-[200px] md:min-h-[300px]">
-						<img src="biblioclase.webp" alt="Imagen proyecto Biblioclase" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-103" />
+				<div
+					class="grid grid-cols-1 md:grid-cols-2 bg-neutral-800 border border-neutral-700 rounded-2xl shadow-lg overflow-hidden group"
+				>
+					<div
+						class="relative w-full h-full min-h-[200px] md:min-h-[300px]"
+					>
+						<img
+							src="biblioclase.webp"
+							alt="Imagen proyecto Biblioclase"
+							class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-103"
+						/>
 					</div>
 					<div class="p-6 md:p-8 flex flex-col gap-4 text-zinc-100">
-						<h4 class="text-2xl font-bold bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent">
-						Biblioclase
+						<h4
+							class="text-2xl font-bold bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent"
+						>
+							Biblioclase
 						</h4>
 						<div class="flex flex-wrap gap-4">
-							<IconReact width="24" height="24"></IconReact>
-							<IconTypescript width="24" height="24"></IconTypescript>
-							<IconSupabase width="24" height="24"></IconSupabase>
-							<IconTailwind width="24" height="24"></IconTailwind>
+							<IconReact width="24" height="24" />
+							<IconTypescript width="24" height="24" />
+							<IconSupabase width="24" height="24" />
+							<IconTailwind width="24" height="24" />
 						</div>
 						<p class="text-zinc-200 text-md leading-relaxed">
-							Biblioclase es una aplicación diseñada para fomentar el hábito de la lectura en los niños. Les permite descubrir libros según sus géneros literarios favoritos, publicar reseñas, interactuar con sus amigos y mucho más, en un entorno seguro y amigable.
+							Biblioclase es una aplicación diseñada para fomentar
+							el hábito de la lectura en los niños. Les permite
+							descubrir libros según sus géneros literarios
+							favoritos, publicar reseñas, interactuar con sus
+							amigos y mucho más, en un entorno seguro y amigable.
 						</p>
 						<div class="flex gap-4 mt-auto text-sm">
-							<a href="https://biblioclase.netlify.app/" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30">
-									<IconLink className="size-4"></IconLink>
-									Ver proyecto
+							<a
+								href="https://biblioclase.netlify.app/"
+								target="_blank"
+								class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30"
+							>
+								<IconLink className="size-4" />
+								Ver proyecto
 							</a>
-							<a href="https://github.com/miguelgonzalezzdev/book-rating-app" target="_blank" class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30">
-								<IconGithub className="size-4"></IconGithub>
+							<a
+								href="https://github.com/miguelgonzalezzdev/book-rating-app"
+								target="_blank"
+								class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30"
+							>
+								<IconGithub className="size-4" />
 								Código
 							</a>
 						</div>
@@ -116,19 +224,125 @@ import IconTailwind from '../components/icons/IconTailwind.astro';
 				</div>
 			</article>
 		</section>
-		<section id="sobremi" class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30">
+		<section
+			id="sobremi"
+			class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30"
+		>
 			<h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
-				<svg class="size-8" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+				<svg
+					class="size-8"
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="icon icon-tabler icons-tabler-outline icon-tabler-user"
+					><path stroke="none" d="M0 0h24v24H0z" fill="none"
+					></path><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"
+					></path><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"
+					></path></svg
+				>
 				Sobre mí
 			</h3>
 			<article class="space-y-8">
-				<div class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-lg text-md text-zinc-200 space-y-4">
-					<p>Soy Miguel González García, desarrollador web apasionado por la tecnología. Desde pequeño he sido un enamorado los ordenadores, recuerdo sentarme junto a mi padre y verlo usar el PC durante horas. Con el tiempo, finalmente he conseguido dedicarme profesionalmente a lo que siempre ha sido mi hobby.</p>
-					<p>Como profesional, he asesorado a diversos clientes en la optimización de sus procesos de negocio mediante soluciones ERP y CRM personalizadas. También me encargo del mantenimiento y soporte técnico de aplicaciones existentes, garantizando su correcto funcionamiento y evolución. Junto con mi equipo, he desarrollado plataformas SaaS que aportan valor real.</p>
-					<p>Me considero una persona comprometida, resolutiva y proactiva. Disfruto trabajando en equipo y colaborando con mis compañeros para alcanzar los objetivos comunes. Mi meta es formar parte de un entorno profesional donde pueda aportar valor con mis conocimientos, afrontar nuevos desafíos y seguir desarrollándome tanto a nivel personal como profesionalmente.</p>
+				<div
+					class="bg-neutral-800 border border-neutral-700 rounded-xl p-6 shadow-lg text-md text-zinc-200 space-y-4"
+				>
+					<p>
+						Soy Miguel González García, desarrollador web apasionado
+						por la tecnología. Desde pequeño he sido un enamorado
+						los ordenadores, recuerdo sentarme junto a mi padre y
+						verlo usar el PC durante horas. Con el tiempo,
+						finalmente he conseguido dedicarme profesionalmente a lo
+						que siempre ha sido mi hobby.
+					</p>
+					<p>
+						Como profesional, he asesorado a diversos clientes en la
+						optimización de sus procesos de negocio mediante
+						soluciones ERP y CRM personalizadas. También me encargo
+						del mantenimiento y soporte técnico de aplicaciones
+						existentes, garantizando su correcto funcionamiento y
+						evolución. Junto con mi equipo, he desarrollado
+						plataformas SaaS que aportan valor real.
+					</p>
+					<p>
+						Me considero una persona comprometida, resolutiva y
+						proactiva. Disfruto trabajando en equipo y colaborando
+						con mis compañeros para alcanzar los objetivos comunes.
+						Mi meta es formar parte de un entorno profesional donde
+						pueda aportar valor con mis conocimientos, afrontar
+						nuevos desafíos y seguir desarrollándome tanto a nivel
+						personal como profesionalmente.
+					</p>
 				</div>
 			</article>
 		</section>
 	</main>
-	<Footer></Footer>
-</Layout>  
+	<Footer />
+	<button
+		id="backToTop"
+		class="fixed bottom-6 right-6 lg:bottom-8 lg:right-8 w-10 h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-cyan-300 to-blue-500 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 invisible"
+		aria-label="Volver al inicio"
+	>
+		<svg
+			class="w-6 h-6 lg:w-8 lg:h-8 mx-auto"
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="1.5"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+				d="M12 5l0 14"></path><path d="M18 11l-6 -6"></path><path
+				d="M6 11l6 -6"></path>
+		</svg>
+	</button>
+	<script>
+		const backToTopButton = document.getElementById("backToTop");
+
+		if (backToTopButton) {
+			// Mostrar/ocultar botón según el scroll
+			window.addEventListener("scroll", () => {
+				if (window.pageYOffset > 300) {
+					backToTopButton.classList.remove("opacity-0", "invisible");
+					backToTopButton.classList.add("opacity-100", "visible");
+				} else {
+					backToTopButton.classList.add("opacity-0", "invisible");
+					backToTopButton.classList.remove("opacity-100", "visible");
+				}
+			});
+
+			// Smooth scroll
+			backToTopButton.addEventListener("click", () => {
+				window.scrollTo({
+					top: 0,
+					behavior: "smooth",
+				});
+			});
+		}
+
+		// Smooth scroll para enlaces del nav
+		document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
+			anchor.addEventListener("click", (e) => {
+				e.preventDefault();
+				const href = (e.target as HTMLAnchorElement).getAttribute(
+					"href",
+				);
+				const target = document.querySelector(href || "");
+				if (target) {
+					target.scrollIntoView({
+						behavior: "smooth",
+						block: "start",
+					});
+				}
+			});
+		});
+	</script>
+</Layout>
