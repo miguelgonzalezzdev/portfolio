@@ -1,0 +1,70 @@
+---
+import IconLinkedin from "../components/icons/IconLinkedin.astro";
+import IconGithub from "../components/icons/IconGithub.astro";
+import IconMail from "../components/icons/IconMail.astro";
+---
+
+<section
+    class="w-full lg:max-w-4xl md:max-w-2xl flex flex-col md:flex-row items-center gap-18 mt-12 lg:mt-50"
+>
+    <div class="flex-1 opacity-0" id="hero-text">
+        <h1 class="text-5xl font-bold">Miguel González García</h1>
+        <h2
+            class="text-3xl font-semibold italic mt-4 bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent"
+        >
+            Full Stack Developer
+        </h2>
+        <p class="text-xl max-w-xl py-8">
+            +2 años de experiencia. <span
+                class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent"
+                >Desarrollador de software</span
+            > en Jaén, España. Especializado en transformar ideas en <span
+                class="bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent"
+                >soluciones web</span
+            > únicas e innovadoras.
+        </p>
+        <nav class="flex flex-wrap gap-4 text-sm md:text-md">
+            <a
+                href="https://www.linkedin.com/in/miguelgonzalezgarciadev/"
+                target="_blank"
+                class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1"
+            >
+                <IconLinkedin className="size-4" />
+                LinkedIn
+            </a>
+            <a
+                href="https://github.com/miguelgonzalezzdev"
+                target="_blank"
+                class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1"
+            >
+                <IconGithub className="size-4" />
+                Github
+            </a>
+            <a
+                href="mailto:miguelgonzalezdev@gmail.com"
+                class="rounded-full backdrop-blur-sm shadow-lg px-3 md:px-4 py-2 bg-neutral-800 border border-neutral-600 text-zinc-100 hover:bg-gray-100 hover:border-gray-300 hover:text-neutral-950 inline-flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1"
+            >
+                <IconMail className="size-4" />
+                Contáctame
+            </a>
+        </nav>
+    </div>
+    <div
+        id="hero-img"
+        class="relative w-40 h-40 lg:w-52 lg:h-52 rounded-full transition-transform duration-500 hover:scale-105"
+    >
+        <div
+            class="absolute -inset-1 rounded-full bg-gradient-to-tr from-cyan-300 via-blue-500 to-indigo-600 blur-3xl opacity-55"
+        >
+        </div>
+        <div
+            class="relative w-full h-full rounded-full overflow-hidden shadow-xl border-4 border-transparent"
+        >
+            <img
+                src="perfil.webp"
+                alt="Imagen de Miguel González García"
+                class="w-full h-full object-cover rounded-full"
+            />
+        </div>
+    </div>
+</section>
