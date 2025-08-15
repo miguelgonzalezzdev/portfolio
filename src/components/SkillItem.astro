@@ -1,0 +1,13 @@
+---
+const { 
+    icon: Icon, 
+    label, 
+    width = 48, 
+    height = 48 
+} = Astro.props;
+---
+
+<div class="flex flex-col items-center p-2 shadow-md backdrop-blur-sm rounded-full">
+    <Icon width={width} height={height} />
+    <p class="mt-2 text-md font-semibold">{label}</p>
+</div>

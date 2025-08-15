@@ -1,8 +1,23 @@
+---
+const {
+    width = 24,
+    height = 24,
+    strokeWidth = 2,
+    fill = "none",
+    stroke = "none",
+    className = "",
+} = Astro.props;
+---
+
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="none"
     viewBox="0 0 54 33"
-    {...Astro.props}
+    width={width}
+    height={height}
+    stroke-width={strokeWidth}
+    fill={fill}
+    stroke={stroke}
+    class={className}
     ><g clip-path="url(#tailwindcss__a)"
         ><path
             fill="#38bdf8"

@@ -1,0 +1,57 @@
+---
+import SkillItem from "../components/SkillItem.astro";
+import IconReact from "../components/icons/IconReact.astro";
+import IconJavascript from "../components/icons/IconJavascript.astro";
+import IconTypescript from "../components/icons/IconTypescript.astro";
+import IconNodejs from "../components/icons/IconNodejs.astro";
+import IconPHP from "../components/icons/IconPHP.astro";
+import IconMysql from "../components/icons/IconMysql.astro";
+import IconPostgreesql from "../components/icons/IconPostgreesql.astro";
+import IconSupabase from "../components/icons/IconSupabase.astro";
+import IconTailwind from "../components/icons/IconTailwind.astro";
+import IconCSS from "../components/icons/IconCSS.astro";
+import IconHTML from "../components/icons/IconHTML.astro";
+import IconGit from "../components/icons/IconGit.astro";
+---
+
+<section
+    id="habilidades"
+    class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30 overflow-hidden"
+>
+    <h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
+        <svg
+            class="size-8"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+                d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z"
+            ></path>
+        </svg>
+        Habilidades
+    </h3>
+    <article class="space-y-8">
+        <div class="flex flex-wrap justify-center gap-10">
+            <SkillItem icon={IconReact} label="React" />
+            <SkillItem icon={IconJavascript} label="JavaScript" />
+            <SkillItem icon={IconTypescript} label="TypeScript" />
+            <SkillItem icon={IconNodejs} label="Node.js" />
+            <SkillItem icon={IconPHP} label="PHP" />
+            <SkillItem icon={IconMysql} label="MySQL" />
+            <SkillItem icon={IconPostgreesql} label="PostgreSQL" />
+            <SkillItem icon={IconSupabase} label="Supabase" />
+            <SkillItem icon={IconTailwind} label="Tailwind CSS" />
+            <SkillItem icon={IconHTML} label="HTML" />
+            <SkillItem icon={IconCSS} label="CSS" />
+            <SkillItem icon={IconGit} label="Git" />
+        </div>
+    </article>
+</section>
