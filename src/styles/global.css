@@ -24,7 +24,7 @@ html {
 @keyframes zoomUp {
   0% {
     opacity: 0;
-    transform: scale(0.95) translateY(30px);
+    transform: scale(0.95) translateY(40px);
   }
 
   100% {
@@ -51,4 +51,22 @@ html {
   .zoom-up {
     animation: zoomUp 0.8s ease-out forwards;
   }
+
+  .flip-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    perspective: 1000px;
+  }
+
+  .flip-hover svg {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-hover:hover svg {
+    transform: rotateY(180deg);
+  }
+
 }

@@ -92,6 +92,20 @@ import AboutSection from "../components/AboutSection.astro";
 					heroImg.classList.add("zoom-up");
 				}, 50);
 			}
+
+			const skillItems = document.querySelectorAll("#skills-icons .flex-col");
+
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add("zoom-up");
+					entry.target.classList.remove("opacity-0");
+					observer.unobserve(entry.target);
+				}
+				});
+			}, { threshold: 0.4 });
+
+			skillItems.forEach(item => observer.observe(item));
 		});
 	</script>
 </Layout>
