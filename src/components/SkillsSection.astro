@@ -12,6 +12,8 @@ import IconTailwind from "../components/icons/IconTailwind.astro";
 import IconCSS from "../components/icons/IconCSS.astro";
 import IconHTML from "../components/icons/IconHTML.astro";
 import IconGit from "../components/icons/IconGit.astro";
+import IconJava from "./icons/IconJava.astro";
+import IconSpring from "./icons/IconSpring.astro";
 ---
 
 <section
@@ -40,11 +42,12 @@ import IconGit from "../components/icons/IconGit.astro";
     </h3>
     <article class="space-y-8">
         <div id="skills-icons" class="flex flex-wrap justify-center gap-10">
+            <SkillItem icon={IconJava} label="Java" />
+            <SkillItem icon={IconSpring} label="Spring" />
+            <SkillItem icon={IconPHP} label="PHP" />
             <SkillItem icon={IconReact} label="React" />
             <SkillItem icon={IconJavascript} label="JavaScript" />
             <SkillItem icon={IconTypescript} label="TypeScript" />
-            <SkillItem icon={IconNodejs} label="Node.js" />
-            <SkillItem icon={IconPHP} label="PHP" />
             <SkillItem icon={IconMysql} label="MySQL" />
             <SkillItem icon={IconPostgreesql} label="PostgreSQL" />
             <SkillItem icon={IconSupabase} label="Supabase" />

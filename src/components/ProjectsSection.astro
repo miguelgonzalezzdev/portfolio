@@ -5,6 +5,9 @@ import IconReact from "../components/icons/IconReact.astro";
 import IconTypescript from "../components/icons/IconTypescript.astro";
 import IconSupabase from "../components/icons/IconSupabase.astro";
 import IconTailwind from "../components/icons/IconTailwind.astro";
+import IconSpring from "./icons/IconSpring.astro";
+import IconJava from "./icons/IconJava.astro";
+import IconPostgreesql from "./icons/IconPostgreesql.astro";
 ---
 
 <section id="proyectos" class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30">
@@ -33,8 +36,53 @@ import IconTailwind from "../components/icons/IconTailwind.astro";
         >
             <div class="relative w-full h-full min-h-[200px] md:min-h-[300px]">
                 <img
+                    src="snaplinks.webp"
+                    alt="Imagen del proyecto SnapLinks"
+                    class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-103"
+                />
+            </div>
+            <div class="p-6 md:p-8 flex flex-col gap-4 text-zinc-100">
+                <h4
+                    class="text-2xl font-bold bg-gradient-to-r from-cyan-300 via-blue-500 to-cyan-300 bg-clip-text text-transparent"
+                >
+                    SnapLinks
+                </h4>
+                <div class="flex flex-wrap gap-4">
+                    <IconJava width="24" height="24" />
+                    <IconSpring width="24" height="24" />
+                    <IconPostgreesql width="24" height="24" />
+                    <IconReact width="24" height="24" />
+                    <IconTypescript width="24" height="24" />
+                    <IconTailwind width="24" height="24" />
+                </div>
+                <p class="text-zinc-200 text-md leading-relaxed">
+                    SnapLinks es un acortador de URLs. Permite a los usuarios
+                    crear URLs cortas, redirigirlas, generar QR codes 
+                    y consultar estadísticas de uso.
+                </p>
+                <p class="text-zinc-200 text-md leading-relaxed">
+                    Este proyecto se encuentra en desarrollo, 
+                    próximamente estará disponible para su uso.
+                </p>
+                <div class="flex gap-4 mt-auto text-sm">
+                    <a
+                        href="https://github.com/miguelgonzalezzdev/snaplinks"
+                        target="_blank"
+                        class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30"
+                    >
+                        <IconGithub className="size-4" />
+                        Código
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 bg-neutral-800 border border-neutral-700 rounded-2xl shadow-lg overflow-hidden group"
+        >
+            <div class="relative w-full h-full min-h-[200px] md:min-h-[300px]">
+                <img
                     src="biblioclase.webp"
-                    alt="Imagen proyecto Biblioclase"
+                    alt="Imagen del proyecto Biblioclase"
                     class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-103"
                 />
             </div>
