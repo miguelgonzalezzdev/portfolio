@@ -1,6 +1,6 @@
 ---
-// UrlImage.astro
 const { src, alt, className = '' } = Astro.props;
+const url = new URL(src, Astro.site).toString();
 ---
 
-<img src={Astro.site + src} alt={alt} class={className} />
+<img src={url} alt={alt} class={className} />
