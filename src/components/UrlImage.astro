@@ -1,0 +1,7 @@
+---
+// UrlImage.astro
+const { src, alt, className = '' } = Astro.props;
+const url = new URL(src, import.meta.env.SITE).toString();
+---
+
+<img src={url} alt={alt} class={className} />
