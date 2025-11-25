@@ -6,8 +6,6 @@ import path from "node:path";
 export default defineConfig({
   site: 'https://miguelgonzalezdev.es/',
   base: '/',
-  //output: 'static',
-  cacheDir: "./astro_cache",
   vite: {
     plugins: [tailwindcss()],
     resolve: {
