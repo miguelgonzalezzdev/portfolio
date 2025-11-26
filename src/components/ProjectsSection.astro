@@ -11,7 +11,7 @@ import IconJava from "./icons/IconJava.astro";
 import IconPostgreesql from "./icons/IconPostgreesql.astro";
 ---
 
-<section id="proyectos" class="w-full lg:max-w-4xl md:max-w-2xl mt-16 lg:mt-30">
+<section id="proyectos" class="w-full lg:max-w-4xl md:max-w-2xl mt-20 lg:mt-30">
     <h3 class="text-3xl font-bold mb-6 flex items-center gap-3">
         <svg
             class="size-8"
@@ -58,14 +58,18 @@ import IconPostgreesql from "./icons/IconPostgreesql.astro";
                 </div>
                 <p class="text-zinc-200 text-md leading-relaxed">
                     SnapLinks es un acortador de URLs. Permite a los usuarios
-                    crear URLs cortas, redirigirlas, generar QR codes y
-                    consultar estadísticas de uso.
-                </p>
-                <p class="text-zinc-200 text-md leading-relaxed">
-                    Este proyecto se encuentra en desarrollo, próximamente
-                    estará disponible para su uso.
+                    crear URLs cortas, redirigirlas, generar códigos QR y
+                    consultar estadísticas como los accesos, geolocalización, dispositivos, etc.
                 </p>
                 <div class="flex gap-4 mt-auto text-sm">
+                    <a
+                        href="https://snaplinks.miguelgonzalezdev.es/"
+                        target="_blank"
+                        class="px-3 md:px-4 py-2 font-semibold border border-zinc-100 rounded-full inline-flex items-center justify-center gap-2 transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-cyan-300 hover:to-blue-500 hover:text-neutral-900 hover:border-transparent hover:shadow-lg hover:scale-103 hover:shadow-cyan-500/30"
+                    >
+                        <IconLink className="size-4" />
+                        Ver proyecto
+                    </a>
                     <a
                         href="https://github.com/miguelgonzalezzdev/snaplinks"
                         target="_blank"
